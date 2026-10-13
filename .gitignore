@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Project output: downloaded books and the run report
+gutenberg_downloads/
+not_downloaded.txt
+
+# Downloaded book files, wherever they land
+*.epub
+*.txt
+
+# Logs and scratch files
+*.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Keep requirements.txt tracked despite the *.txt rule above
+!requirements.txt
